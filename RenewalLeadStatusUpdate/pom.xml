@@ -208,7 +208,7 @@
       <plugin>
         <artifactId>maven-install-plugin</artifactId>
         <version>2.5.1</version>
-        <executions>
+        <!-- <executions>
           <execution>
             <id>install-oracle-jdbc</id>
             <phase>clean</phase>
@@ -225,7 +225,7 @@
               <file>${project.basedir}/lib/ojdbc14-10.2.0.2.0.jar</file>
             </configuration>
           </execution>
-        </executions>
+        </executions> -->
       </plugin>
     </plugins>
   </build>
