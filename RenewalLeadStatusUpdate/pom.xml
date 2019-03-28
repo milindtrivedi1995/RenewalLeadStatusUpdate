@@ -192,8 +192,8 @@
           <instructions>
             <Bundle-SymbolicName>RenewalLeadStatusUpdate_7000</Bundle-SymbolicName>
             <Private-Package>com.india.aegonPartner10.RenewalLeadStatusUpdate.*</Private-Package>
-            <!-- <Import-Package>*;resolution:=optional,!com.oracle</Import-Package>
-            <Embed-Dependency>ojdbc14</Embed-Dependency> -->
+            <Import-Package>*;resolution:=optional</Import-Package>
+           <!-- <Embed-Dependency>ojdbc14</Embed-Dependency> -->
           </instructions>
         </configuration>
       </plugin>
